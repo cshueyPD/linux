@@ -118,7 +118,6 @@ dtb-$(CONFIG_ARCH_MXC) += imx8mq-evk-dual-display.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-librem5-devkit.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-librem5-r2.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-librem5-r3.dtb
-dtb-$(CONFIG_ARCH_MXC) += imx8mq-nitrogen.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-phanbell.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-pico-pi.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-thor96.dtb
@@ -247,3 +246,4 @@ dtb-$(CONFIG_ARCH_MXC) += imx8mp-nitrogen8mp.dtb imx8mp-nitrogen8mp-m4.dtb \
 
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-bio.dtb \
 			  imx8mq-ds.dtb \
+			  imx8mq-nitrogen8m.dtb imx8mq-nitrogen8m-m4.dtb \
