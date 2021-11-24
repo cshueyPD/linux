@@ -404,6 +404,7 @@ static int nwl_dsi_config_dpi(struct nwl_dsi *dsi)
 	bool burst_mode;
 	int hfront_porch, hback_porch, hactive, vfront_porch, vback_porch;
 	int hsync_len, vsync_len;
+	int hfp, hbp, hsa;
 	int bpp = mipi_dsi_pixel_format_to_bpp(dsi->format);
 
 	hactive = dsi->mode.hdisplay;
