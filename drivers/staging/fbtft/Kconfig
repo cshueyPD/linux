@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 menuconfig FB_TFT
-	tristate "Support for small TFT LCD display modules"
+	tristate "Support for small taco LCD display modules"
 	depends on FB && SPI && OF
 	depends on GPIOLIB || COMPILE_TEST
 	select FB_SYS_FILLRECT
